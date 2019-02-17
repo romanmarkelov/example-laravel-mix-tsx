@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "dev": "npx cross-env NODE_ENV=development npx webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npx cross-env NODE_ENV=development npx webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "npx cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "npx cross-env NODE_ENV=production npx webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "dependencies": {
+    "vue": "2.6.6",
+    "vue-property-decorator": "7.3.0",
+    "vue-router": "3.0.2",
+    "vuex": "3.1.0"
+  },
+  "devDependencies": {
+    "@types/webpack-env": "1.13.7",
+    "html-webpack-plugin": "3.2.0",
+    "laravel-mix": "4.0.14",
+    "ts-loader": "5.3.3",
+    "typescript": "3.3.3",
+    "vue-template-compiler": "2.6.6"
+  }
+}
