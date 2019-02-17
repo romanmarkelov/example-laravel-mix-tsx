@@ -2,12 +2,12 @@
 import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
-export default class AppTest extends Vue {
-  @Prop() private msg: string = 'Hello From AppTest';
+export default class TestTsx extends Vue {
+  @Prop() private msg: string = 'Hello From TestTsx';
 
   render() {
     const test = (
-      <div> {this.msg} </div>
+      <span> {this.msg} </span>
     )
 
     return (

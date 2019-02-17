@@ -24,8 +24,6 @@ mix
         template: './public/index.html',
       })
     ],
-  })
-  .webpackConfig({
     resolve: {
       extensions: ['.ts', '.tsx', '.vue', '.vuex'],
       alias: {
